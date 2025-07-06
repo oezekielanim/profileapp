@@ -44,7 +44,6 @@ A modern, animated Flutter profile application showcasing professional skills, p
 - **Font Awesome** - Icon library
 - **URL Launcher** - External link handling
 
-## 📱 Screenshots
 
 ### Light Mode
 ![Light Mode](https://via.placeholder.com/300x600/FFFFFF/000000?text=Light+Mode)
@@ -223,14 +222,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **LinkedIn:** [Ezekiel Anim Obuobisa](https://linkedin.com/in/eaobuobisa)
 - **GitHub:** [@oezekielanim](https://github.com/oezekielanim)
 - **Twitter:** [@mister_obuobisa](https://twitter.com/mister_obuobisa)
-
-## 🙏 Acknowledgments
-
-- Flutter team for the amazing framework
-- Material Design team for the design system
-- Font Awesome for the icon library
-- The Flutter community for inspiration and support
-
----
-
-⭐ **Star this repository if you found it helpful!**

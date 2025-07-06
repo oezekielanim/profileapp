@@ -59,10 +59,17 @@ class _ProfileHeaderState extends State<ProfileHeader>
             height: 200,
             width: double.infinity,
             decoration: BoxDecoration(
+              image: DecorationImage(
+                image: const AssetImage('assets/images/cover.jpg'),
+                fit: BoxFit.cover,
+                onError: (exception, stackTrace) {
+                  // Fallback to gradient if cover image fails to load
+                },
+              ),
               gradient: LinearGradient(
                 colors: [
-                  Theme.of(context).colorScheme.primary,
-                  Theme.of(context).colorScheme.secondary,
+                  Theme.of(context).colorScheme.primary.withOpacity(0.8),
+                  Theme.of(context).colorScheme.secondary.withOpacity(0.8),
                 ],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
@@ -121,7 +128,7 @@ class _ProfileHeaderState extends State<ProfileHeader>
 
           // Name and Title
           Positioned(
-            bottom: 0,
+            bottom: -5,
             left: 0,
             right: 0,
             child: Column(
